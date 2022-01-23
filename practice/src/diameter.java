@@ -7,11 +7,10 @@ public class diameter  {
 	Size A = new Size();
 	
 	
-	 void diameter(double diameter) {
+	 void diameterX(double diameter) {
 		
 		x = A.getSize();
-		diameter = (2.0 * x);
-		
+		diameter = (2 * x);
 		this.diameter = diameter;
 	
 	}

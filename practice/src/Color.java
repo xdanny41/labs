@@ -1,17 +1,17 @@
 
-public class Color extends Shape {
+public class Color  {
 
+	private String color;
 	
-	
-
-	public Color (String X) {
-		
-		System.out.println(X);
-		
-	
-		
+	Color(String color) {
+		this.color = color;
 		
 	}
+	
+	public String getColor() {
+		return color;
+	}
+	
 	
 	
 }

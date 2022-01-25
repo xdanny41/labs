@@ -18,11 +18,11 @@ public class Shape {
 		
 		Size.setSize(radius);
 		
-		diameter diameter = new diameter();
+		diameter diameter = new diameter(radius);
 		
 		System.out.println(Color.getColor());
 		System.out.println(Shape.getShape());
-	
+		System.out.println(Size.getSize());
 		System.out.println(diameter.getDiameter());
 	
 		

@@ -24,6 +24,8 @@ public class Shape {
 		System.out.println(Shape.getShape());
 		System.out.println(Size.getSize());
 		System.out.println(diameter.getDiameter());
+		
+		//nigger
 	
 		
 		

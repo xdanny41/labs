@@ -8,12 +8,13 @@ public class Size  {
 	
 	}
 	
-	public double getSize(){
-		return size;
-	}
-	
 	public void setSize(double size) {
 		this.size = size;
 		
 	}
+	public double getSize(){
+		return size;
+	}
+	
+	
 }

@@ -4,20 +4,17 @@ public class diameter  {
 	private double diameter;
 	private double x;
 	
-	Size A = new Size();
 	
 	
-	 public diameter(double radius) {
-		// TODO Auto-generated constructor stub
-	}
+	
 
-	double diameterX(double diameter) {
+
+	public diameter(double diameter) {
 		
-		x = A.getSize();
-		diameter = (2 * x);
+		x = diameter;
+		diameter = (2.0 * x);
 		this.diameter = diameter;
-		return diameter;
-
+	
 	}
 	
 	public double getDiameter() {
